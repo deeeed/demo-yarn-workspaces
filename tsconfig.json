@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "composite": true,
+        "outDir": "dist"
     },
     "exclude": [],
     "references": [
