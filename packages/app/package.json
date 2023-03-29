@@ -3,7 +3,8 @@
   "packageManager": "yarn@3.5.0",
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register src/app.ts",
-    "build": "rollup -c --bundleConfigAsCjs",
+    "build": "rollup -c rollup.config.js --bundleConfigAsCjs",
+    "build:ok": "rollup -c rollup.config.ok.js --bundleConfigAsCjs",
     "build:tsc": "tsc --build --force"
   },
   "dependencies": {

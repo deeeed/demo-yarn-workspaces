@@ -4,11 +4,11 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 var common = require('@demo/common');
 
-console.debug(`demo plop ${common.ConnectionStatus.TERMINATED} `, common.demo());
+console.debug(`demo plop ${common.ConnectionStatus.DISCONNECTED} `, common.demo());
 console.debug(`_WEB`);
-const poop = "lalala";
+const test = "some value";
 
-exports.default = poop;
+exports.default = test;
 Object.keys(common).forEach(function (k) {
 	if (k !== 'default' && !exports.hasOwnProperty(k)) Object.defineProperty(exports, k, {
 		enumerable: true,

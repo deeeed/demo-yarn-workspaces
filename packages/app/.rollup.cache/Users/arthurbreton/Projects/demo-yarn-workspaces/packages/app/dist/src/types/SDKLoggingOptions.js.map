@@ -1,1 +1,0 @@
-{"version":3,"file":"SDKLoggingOptions.js","sourceRoot":"","sources":["../../../src/types/SDKLoggingOptions.ts"],"names":[],"mappings":"","sourcesContent":["import { AutoConnectOptions } from '@demo/common';\n\nexport interface SDKLoggingOptions extends AutoConnectOptions {\n  // automatically switch all logging options on\n  developerMode?: boolean;\n  sdk?: boolean;\n}\n"]}

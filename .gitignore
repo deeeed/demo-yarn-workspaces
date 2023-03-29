@@ -78,4 +78,5 @@ typings/
 
 # Rollup cache
 .rollup.cache/
+**/.rollup.cache/
 .vscode/settings.json

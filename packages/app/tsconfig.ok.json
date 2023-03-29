@@ -1,0 +1,18 @@
+{
+    // "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "composite": true,
+        "rootDir": ".",
+        "outDir": "./dist",
+        "paths": {
+            "@demo/common": ["../common/src"]
+        }
+    },
+    "include": ["src"],
+    "references": []
+    // "references": [
+    //     {
+    //         "path": "../common"
+    //     }
+    // ]
+}
