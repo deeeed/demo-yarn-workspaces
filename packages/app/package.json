@@ -1,0 +1,21 @@
+{
+  "name": "@demo/app",
+  "packageManager": "yarn@3.5.0",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/app.ts",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "build:tsc": "tsc --build --force"
+  },
+  "dependencies": {
+    "@demo/common": "workspace:^"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.20.2",
+    "rollup-plugin-jscc": "^2.0.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.2",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2"
+  }
+}

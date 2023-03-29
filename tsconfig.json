@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "composite": true,
+    },
+    "exclude": [],
+    "references": [
+        {
+            "path": "./packages/common"
+        },
+        {
+            "path": "./packages/app"
+        }
+    ]
+}

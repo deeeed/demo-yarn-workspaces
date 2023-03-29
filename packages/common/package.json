@@ -1,0 +1,13 @@
+{
+  "name": "@demo/common",
+  "packageManager": "yarn@3.5.0",
+  "main": "dist/src/common.js",
+  "types": "dist/src/common.d.ts",
+  "scripts": {
+    "build": "tsc --build --force",
+    "build:watch": "tsc --build --watch --force"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}

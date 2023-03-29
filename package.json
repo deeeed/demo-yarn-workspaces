@@ -1,0 +1,16 @@
+{
+  "name": "demo-monorepo",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/common",
+      "packages/app"
+    ]
+  },
+  "scripts": {
+    "build": "tsc --build --force"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
